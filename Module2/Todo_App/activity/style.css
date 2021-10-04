@@ -1,0 +1,117 @@
+*{
+    box-sizing : border-box;
+    margin:0px;
+    /* padding:0px; */
+}
+
+body{
+    background-color : #27ae60
+}
+
+.todo-input-container{
+
+height: 100px;
+
+/* background-color: silver; */
+
+padding: 20px;
+
+/* border: 20px solid; */
+}
+
+.todo-input{
+
+height: 70%;
+
+width: 80%;
+
+padding: 10px;
+
+outline: none;
+
+border: 0px;
+
+border-radius: 35px;
+
+font-size: 20px;
+
+display: block;
+
+margin: auto;
+
+margin-bottom: 05px;
+}
+
+.add-todo{
+
+display: block;
+
+margin: auto;
+
+height: 75%;
+
+width: 15%;
+
+font-weight: bolder;
+
+border-radius: 15px;
+
+border: 2px solid lightyellow;
+
+color: chocolate;
+
+font-size: 14px;
+
+background-color: #192a56;
+
+margin-bottom: 1000px;
+}
+
+.todo-list-container{
+    
+padding: 30px;
+}
+
+.todo-item{
+
+width: 60%;
+
+margin: auto;
+
+margin-top: 18px;
+
+background-color: #273c75;
+
+border-radius: 15px;
+
+padding: 10px;
+
+text-align: center;
+}
+
+.todo{
+
+color: whitesmoke;
+
+font-size: 20px;
+
+margin: auto;
+}
+
+.delete-todo{
+    
+background-color: #c23616;
+    
+color: white;
+    
+width: 70px;
+    
+height: 20px;
+    
+border: none;
+    
+border-radius: 20px;
+}
+
+
+

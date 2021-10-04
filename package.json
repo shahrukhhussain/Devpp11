@@ -1,0 +1,29 @@
+{
+  "name": "Dev_pp_11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahrukhhussain/Devpp11.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahrukhhussain/Devpp11/issues"
+  },
+  "homepage": "https://github.com/shahrukhhussain/Devpp11#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.9",
+    "cross-env": "^7.0.3",
+    "puppeteer": "^9.1.1",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.1",
+    "request": "^2.88.2"
+  }
+}

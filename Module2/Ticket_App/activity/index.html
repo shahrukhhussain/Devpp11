@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ticket App</title>
+
+    <!-- connecting css file to this HTML file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font awesome CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="tickets-filter">
+        <div class="filter red active-filter"></div>
+        <div class="filter blue"></div>
+        <div class="filter green"></div>
+        <div class="filter yellow"></div>
+        <div class="filter black"></div>
+      </div>
+      <div class="ticket-actions">
+        <div class="open-modal">
+          <i class="fas fa-plus"></i>
+        </div>
+        <div class="close-modal">
+          <i class="fas fa-times"></i>
+        </div>
+      </div>
+    </div>
+    <div class="tickets-container">
+      <!-- <div class="ticket">
+            <div class="ticket-header"></div>
+            <div class="ticket-content">
+                <div class="ticket-info">
+                    <div class="ticket-id"> #e2nf5</div>
+                    <div class="ticket-delete">
+                        <i class="far fa-trash-alt"></i>f
+                    </div>
+                </div>
+                <div class="ticket-value">Fix css !!</div>
+            </div>
+        </div> -->
+    </div>
+
+    <!-- <div class="ticket-modal">
+        <div class="ticket-text"></div>
+        <div class="ticket-filters">
+            <div class="ticket-filter red"></div>
+            <div class="ticket-filter blue"></div>
+            <div class="ticket-filter green"></div>
+            <div class="ticket-filter yellow"></div>
+            <div class="ticket-filter black"></div>
+        </div>
+
+
+    </div> -->
+    <!-- For deleting the ticket....unique Ticket Id will be used -->
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@4.3.3/dist/short-unique-id.min.js"></script>
+    <script>
+      // This will create Unique Id everyTime
+      let uuid = new ShortUniqueId(); ///creation of fxn types
+    </script>
+    <!-- Firstly this will be compiled -->
+    <script src="./db.js"></script>
+    <!-- Secondaly this will be compiled -->
+    <script src="./script.js"></script>
+
+    <!-- These two files are interrelated to each other -->
+  </body>
+</html>
